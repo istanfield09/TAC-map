@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<title>This is a map</title>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+ 	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLg0660-aFrU2fOgDZWxkfGNeTw-HxBTg&sensor=false"></script>
+    <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+  </head>
+  <body>
+  	<div id="navbar"></div>
+<ul class="menu">
+    <li><a href="#">Filter</a>
+        <ul>
+            <li><a href="#" class="video"><input type="checkbox" id="check1">Video News from TAC</a></li>
+            <li><a href="#" class="interview"><input type="checkbox" id="check2" onclick="">Interviews</a></li>
+            <li><a href="#" class="films"><input type="checkbox" id="check3">Films</a></li>
+            <li><a href="#" class="filter"><button id="filterButton" onclick="check()">Filter</button></a></li>
+        </ul>
+    </li>
+</ul>
+  	</div>
+    <div id="map"></div>
+    <div id="tacbutton"><a href="http://www.archaeologychannel.com"><strong><i>The Archaeology Channel</i></strong></a></div>
+  </body>
+</html>
